@@ -1,0 +1,220 @@
+ *{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+ }
+.begin-part{
+    background-color: #282A35;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 700; 
+    font-family: 'Source Sans Pro', sans-serif;
+    
+
+}
+.begin-part p {
+    color: #FFC0C7;
+    font: 20px;
+}
+.begin-part a{
+    color: white;
+    font-size: 25px;
+    margin-top:  50px;;
+}
+.begin-part input{
+    border-radius: 25px;
+    width: 500px;
+    height: 50px;
+    border: none;
+    padding-left: 22px;
+    border: 2px solid green;
+}
+.html-part{
+    background-color: #d9eee1;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.html-lpart{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+} 
+.html-lpart p{
+    font-size: 22px ;
+    margin-bottom: 20px;
+}
+.html-lpart button{
+    cursor: pointer;
+    background-color: #04aa6d;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 20px; 
+}
+.html-rpart {
+    flex: 1;
+}
+.css-part{
+    background-color: #FFF4A3;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.css-lpart{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.css-lpart p{
+    font-size: 22px ;
+    margin-bottom: 20px;
+}
+.css-lpart button{
+    cursor: pointer;
+    background-color: #04aa6d;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 20px; 
+}
+.css-rpart{
+    flex: 1;
+}
+.script-part {
+    background-color: #282A35;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+ .script-lpart{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.script-lpart p{
+    font-size: 22px ;
+    margin-bottom: 20px;
+    color: white;
+}
+.script-lpart button{
+    cursor: pointer;
+    background-color: #04aa6d;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 20px; 
+}
+.script-rpart{
+    flex: 1;
+}
+.python-part {
+    background-color: #F3ECEA;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+ .python-lpart{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.python-lpart p{
+    font-size: 22px ;
+    margin-bottom: 20px;
+}
+.python-lpart button{
+    cursor: pointer;
+    background-color: #04aa6d;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 20px; 
+}
+.python-rpart{
+    flex: 1;
+}
+.sql-part {
+    background-color: #96D4D4;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+ }
+ .sql-lpart{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.sql-lpart p{
+    font-size: 22px ;
+    margin-bottom: 20px;
+}
+.sql-lpart button{
+    cursor: pointer;
+    background-color: #04aa6d;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 20px; 
+}
+.sql-rpart{
+    flex: 1;
+}

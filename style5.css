@@ -1,0 +1,118 @@
+.quiz-part{
+background-color: #282A35;
+    height: 500px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.quiz-part2 {
+    background-color: #282A35;
+    display: grid;
+    height: 600px;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.quiz-part2 div {
+    background-color:  #059862;
+    height: 200px;
+    width: 600px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer
+}
+.quiz-part2 p{
+    font-size: 30px;
+}
+.quiz-part2 div :hover {
+    background-color: beige;
+}
+.webtemplates-part{
+    background-color: #E7E9EB;
+    height: 800px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.webtemplates-part button {
+    background-color:  #282A35;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 800px;
+    padding: 6px 18px;
+    font-size: large;
+    color: white;
+}
+.webtemplates-part button:hover {
+    background-color: black;
+}
+.kikcstar-part{
+    background-color: #282A35;
+    height: 500px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    color: #FFC0C7;   
+    padding: 0 60px 50px 60px;
+}
+.kikcstar-part button{
+    background-color: #059862;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 400px;
+    padding: 6px 18px;
+    font-size: large;
+    color: white;
+}
+.kikcstar-part button:hover{
+    background-color: aquamarine;
+}
+.howto-part{
+    background-color: #E7E9EB;
+    height: 700px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.howto-part button {
+    background-color:  #282A35;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 400px;
+    padding: 6px 18px;
+    font-size: large;
+    color: white;
+}
+.howto-part button:hover {
+    background: #059862;
+}
+.end-part{
+    background-color: #282A35;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;   
+    justify-content: space-evenly;
+}

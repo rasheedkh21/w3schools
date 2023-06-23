@@ -1,0 +1,95 @@
+.mid-part{
+    background-color: #282A35;
+    padding: 50px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+} 
+.mid-part div {
+    height: 250px;
+    width: 600px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mid-part button:hover {
+    background-color: darkgreen;
+}
+.mid-part button {
+    cursor: pointer; 
+    border-radius: 25px;
+    background-color: #282A35;
+    width: 200px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    
+}
+.CandC {
+    background-color: #282A35;
+    display: grid;
+    height: 300px;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.CandC div {
+    height: 150px;
+    width: 600px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.alotofbutton{
+    background-color: #282A35;
+    height: 2000px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+} 
+.alotofbutton div {
+    height: 120px;
+    width: 280px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.excelgoog {
+    background-color: #282A35;
+    display: grid;
+    height: 600px;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.excelgoog div {
+    height: 100px;
+    width: 600px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer
+}

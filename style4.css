@@ -1,0 +1,142 @@
+.editor-part {
+    background-color: #282A35;
+    height: 900px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.editor-part button {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    padding: 6px 18px;
+    font-size: large;
+    text-align: left;
+}
+.schoolspace-part{
+    background-color: #282A35;
+    height: 1500px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
+.schoolspace-part button{
+    background-color:  #059862;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 300px;
+    padding: 6px 18px;
+    font-size: large;
+}
+.schoolspace-part  button:hover{
+    background-color: aquamarine;
+}
+.mylearning-part{
+    background-color: #D9EEE1;
+    height: 800px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black; 
+}
+.mylearning-part button{
+    background-color:  #059862;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 300px;
+    padding: 6px 18px;
+    font-size: large;
+}
+.mylearning-part button:hover{
+    background-color: aquamarine;
+}
+.prouser-part {
+    background-color: #282A35;
+    height: 500px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.prouser-part h3 {
+    font-size: 25px;
+    color: #FFC0C7;
+    margin: 19px 0;
+}
+.prouser-part h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 55px;
+    padding-top: 11px;
+    padding-bottom: 20px;
+    font-family: Source Sans Pro;
+    color: #fff;
+}
+.prouser-part button{
+    background-color:  #059862;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 300px;
+    padding: 6px 18px;
+    font-size: large;
+}
+.prouser-part button:hover{
+    background-color: aquamarine;
+}
+.colorpic-part{
+    background-color:#F3ECEA;
+    height: 400px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.colorpic-part a :hover{
+    background-color: aquamarine;
+}
+.codegame-part{
+    background-color: #96D4D4;
+    height: 500px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.codegame-part a :hover{
+    background-color: #D9EEE1;
+}
+.codegame-part button{
+    background-color:  #282A35;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+    padding: 6px 18px;
+    font-size: large;
+    color: white;
+}
+.codegame-part button:hover{
+    background-color: black;
+}
